@@ -1,7 +1,7 @@
 ## Project Overview
 
-This project implements **Principal Component Analysis (PCA)** using NumPy to analyze African CO2 emissions data. The implementation includes manual standardization, eigendecomposition, and dimensionality reduction.
-- [Open in Google Colab](https://colab.research.google.com/github/hd77alu/pca-ml/blob/main/PCA_Formative_2.ipynb)
+This project implements **Principal Component Analysis (PCA)** using NumPy to analyze African CO2 emissions data. The implementation includes standardization, eigendecomposition, and dimension reduction.
+- [Open the Notebook in Google Colab](https://colab.research.google.com/github/hd77alu/pca-ml/blob/main/PCA_Formative_2.ipynb)
 
 ## Project Structure
 ```
@@ -17,8 +17,8 @@ pca-ml/
 **Dataset:** `africa-co2-emissions.csv`
 
 ### Dataset Characteristics:
-- **Rows:** 1,139
-- **Columns:** 20 total (3 categorical, 17 numeric)
+- **Rows:** 1,134
+- **Columns:** 20 total (3 non-numeric, 17 numeric)
 - **Missing Values:** 1,013 (handled via mean imputation)
 - **Source:** [African countries CO2 emissions data](https://www.kaggle.com/datasets/victoraiyewumi/co2-emission-africa)
 
@@ -41,7 +41,20 @@ pip install numpy pandas matplotlib
 
 ## How to Use the Notebook
 
-### Method 1: Using Jupyter Notebook (Local)
+### Method 1: Using Google Colab
+1. Click the "Open in Colab" badge at the top of the notebook
+2. Upload `africa-co2-emissions.csv` to your files
+3. Run all cells
+
+### Method 2: Using VS Code
+1. Open VS Code
+2. Install the Jupyter extension (if not already installed)
+3. Open the folder `pca-ml`
+4. Click on `PCA_Formative_2.ipynb`
+5. Select Run all 
+6. Select Python kernel when prompted
+
+### Method 3: Using Jupyter Notebook (Local)
 ```bash
 # Navigate to project directory
 cd pca-ml
@@ -52,18 +65,6 @@ jupyter notebook
 # Open the file: PCA_Formative_2.ipynb
 ```
 
-### Method 2: Using VS Code
-1. Open VS Code
-2. Install the Jupyter extension (if not already installed)
-3. Open the folder `pca-ml`
-4. Click on `PCA_Formative_2.ipynb`
-5. Select Run all 
-6. Select Python kernel when prompted
-
-### Method 3: Using Google Colab
-1. Click the "Open in Colab" badge at the top of the notebook
-2. Upload `africa-co2-emissions.csv` to your files
-3. Run all cells
 
 ## PCA Implementation Steps
 
