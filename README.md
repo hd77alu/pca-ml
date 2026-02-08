@@ -5,11 +5,10 @@ This project implements **Principal Component Analysis (PCA)** using NumPy to an
 ## Project Structure
 ```
 pca-ml/
-│
-├── README.md                                    # This file
-├── africa-co2-emissions.csv                     # Dataset
-├── PCA_Formative_2[Peer_Pair_Number].ipynb     # Main notebook
-└── .gitignore                                   # Git ignore file
+├── README.md                                    
+├── africa-co2-emissions.csv                     
+├── PCA_Formative_2[Peer_Pair_Number].ipynb     
+└── .gitignore                                   
 ```
 
 ## Dataset Information
