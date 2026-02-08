@@ -41,20 +41,7 @@ pip install numpy pandas matplotlib
 
 ## How to Use the Notebook
 
-### Method 1: Using Google Colab
-1. Click the "Open in Colab" badge at the top of the notebook
-2. Upload `africa-co2-emissions.csv` to your files
-3. Run all cells
-
-### Method 2: Using VS Code
-1. Open VS Code
-2. Install the Jupyter extension (if not already installed)
-3. Open the folder `pca-ml`
-4. Click on `PCA_Formative_2.ipynb`
-5. Select Run all 
-6. Select Python kernel when prompted
-
-### Method 3: Using Jupyter Notebook (Local)
+### Method 1: Using Jupyter Notebook (Local)
 ```bash
 # Navigate to project directory
 cd pca-ml
@@ -65,6 +52,18 @@ jupyter notebook
 # Open the file: PCA_Formative_2.ipynb
 ```
 
+### Method 2: Using Google Colab
+1. Click the "Open in Colab" badge at the top of the notebook
+2. Upload `africa-co2-emissions.csv` to your files
+3. Run all cells
+
+### Method 3: Using VS Code
+1. Open VS Code
+2. Install the Jupyter extension (if not already installed)
+3. Open the folder `pca-ml`
+4. Click on `PCA_Formative_2.ipynb`
+5. Select Run all 
+6. Select Python kernel when prompted
 
 ## PCA Implementation Steps
 
