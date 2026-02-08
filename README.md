@@ -1,6 +1,7 @@
 ## Project Overview
 
 This project implements **Principal Component Analysis (PCA)** using NumPy to analyze African CO2 emissions data. The implementation includes manual standardization, eigendecomposition, and dimensionality reduction.
+- [Open in Google Colab](https://colab.research.google.com/github/hd77alu/pca-ml/blob/main/PCA_Formative_2.ipynb)
 
 ## Project Structure
 ```
@@ -8,7 +9,7 @@ pca-ml/
 ├── README.md                                    
 ├── africa-co2-emissions.csv                     
 ├── PCA_Formative_2[Peer_Pair_Number].ipynb     
-└── .gitignore                                   
+                                 
 ```
 
 ## Dataset Information
